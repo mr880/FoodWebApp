@@ -4,11 +4,12 @@
 }
 
 .pic{
-	height: 100%;
-    float: right;
+	float: right;
     display: block;
     position: relative;
-    left: 39px;
+    width: 704px;
+    left: 75px;
+    height: 320px;
 }
 
 .container{
@@ -25,7 +26,7 @@
 	margin-left:10%;
 	margin-top:20px;
 	border-width: 2px;
-	
+	width: 100%;
 	display:flow-root;
 }
 
@@ -33,7 +34,7 @@
 	margin-left:10%;
 	margin-top:20px;
 	border-width: 2px;
-	
+	width: 100%;
 	display: flow-root;
 }
 
@@ -41,7 +42,7 @@
 	margin-left:10%;
 	margin-top:20px;
 	border-width: 2px;
-	
+	width: 100%;
 	display: flow-root;
 }
 
@@ -49,7 +50,7 @@
 	margin-left:10%;
 	margin-top:20px;
 	border-width: 2px;
-	
+	width: 100%;
 	display: flow-root;
 }
 
@@ -57,13 +58,14 @@
 	margin-top:20px;
 	margin-left:10%;
 	border-width: 2px;
-
+	width: 100%;
 	display: flow-root;
 }
 
 p{
 	margin-left:5px;
 	font-size:small;
+	width:100%;
 }
 
 h2{
