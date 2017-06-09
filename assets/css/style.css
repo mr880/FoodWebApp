@@ -4,11 +4,11 @@
 }
 
 .pic{
-	height:277px;
-	float:right;
-	display: block;
+	height: 100%;
+    float: right;
+    display: block;
     position: relative;
-    left: 50px;
+    left: 39px;
 }
 
 .container{
