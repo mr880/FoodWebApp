@@ -16,9 +16,9 @@
 	position:relative;
 	border-color:black;
 	border-width: 3px;
-	background-color:gainsboro;
+	background-color:orange;
 	margin-left: 2%;
-	margin-bottom:5%;
+
 }
 
 .details1{
@@ -68,6 +68,9 @@ p{
 
 h2{
 	margin-left: 20%;
+    width: 1087px;
+    height: 41px;
+
 }
 
 h5{

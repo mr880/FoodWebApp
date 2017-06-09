@@ -42,6 +42,11 @@
 			}
 
 			function searchByID(cityID){
+
+				$(".font-small").remove();
+				$(".rName").remove();
+				$(".link").remove();
+				          
 				var queryURL = "https://developers.zomato.com/api/v2.1/search?entity_id=" + cityID + "&entity_type=city&sort=rating&count=5&apikey=68794916a5d408b51d693e400ac0bc7c";
 
 				$.ajax({
@@ -50,24 +55,29 @@
 				}).done(function(response){
 					console.log(response);
 
+					
 					//prints 5 restaurants
 					for(var i=0; i<5; i++){
 
 						var details = response.restaurants[i].restaurant;
+
 						//variable used to make sevearl different classes with different numbers
 						var x = i+1;
 						//number displayed on screen 
 						var result = "" + (i+1) + ".";
 					
-						var name = $("<h5>" + details.name + "</h5>");
+						var name = $("<h5 class='rName'>" + details.name + "</h5>");
 						var cuisine = $('<p class="font-small"> Type: ' + details.cuisines + '</p>');
 						var addr = $('<p class="font-small">' + details.location.address + '</p>');
 						var cityName = $('<p class="font-small"> City: ' + details.location.city + '</p>');
-						var dog = $("<p> ---------- </p>");
-						var photo = $("<img src="+ details.thumb+">");
+						
+						var photo = $("<img src="+ details.thumb+" class='rName'>");
 						var rating = $("<p class='font-small'> Rating: " + details.user_rating.aggregate_rating + "</p>");
-						var menu = $('<a href="'+details.menu_url+'">Menu</a><br>');
-						var website = $('<a href="'+details.url+'">More info on Zomato!</a>');
+						//links
+						var menu = $('<a class="link" href='+details.menu_url+'>Menu</a><br>');
+						var website = $('<a class="link" href='+details.url+'>More info on Zomato!</a>');
+
+
 						photo.addClass("pic");
 
 						var div = $("<div class=details"+x+"></div>");
