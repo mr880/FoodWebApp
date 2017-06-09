@@ -16,15 +16,16 @@
 	position:relative;
 	border-color:black;
 	border-width: 3px;
-	background-color:brown;
+	background-color:gainsboro;
 	margin-left: 2%;
+	margin-bottom:5%;
 }
 
 .details1{
 	margin-left:10%;
 	margin-top:20px;
 	border-width: 2px;
-	background: aliceblue;
+	
 	display:flow-root;
 }
 
@@ -32,7 +33,7 @@
 	margin-left:10%;
 	margin-top:20px;
 	border-width: 2px;
-	background: aliceblue;
+	
 	display: flow-root;
 }
 
@@ -40,7 +41,7 @@
 	margin-left:10%;
 	margin-top:20px;
 	border-width: 2px;
-	background: aliceblue;
+	
 	display: flow-root;
 }
 
@@ -48,7 +49,7 @@
 	margin-left:10%;
 	margin-top:20px;
 	border-width: 2px;
-	background: aliceblue;
+	
 	display: flow-root;
 }
 
@@ -56,7 +57,7 @@
 	margin-top:20px;
 	margin-left:10%;
 	border-width: 2px;
-	background: aliceblue;
+
 	display: flow-root;
 }
 
