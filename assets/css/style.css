@@ -4,12 +4,13 @@
 }
 
 .pic{
-	float: right;
+	    float: right;
     display: block;
     position: relative;
     width: 704px;
-    left: 50px;
+    left: 75px;
     height: auto;
+    max-height: 450px;
 }
 
 .container{
