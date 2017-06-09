@@ -43,9 +43,12 @@
 
 			function searchByID(cityID){
 
-				$(".font-small").remove();
-				$(".rName").remove();
-				$(".link").remove();
+				$(".details1").remove();
+				$(".details2").remove();
+				$(".details3").remove();
+				$(".details4").remove();
+				$(".details5").remove();
+
 				          
 				var queryURL = "https://developers.zomato.com/api/v2.1/search?entity_id=" + cityID + "&entity_type=city&sort=rating&count=5&apikey=68794916a5d408b51d693e400ac0bc7c";
 
