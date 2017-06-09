@@ -1,30 +1,22 @@
-.giphy{
-	float:left;
-	margin:20px;
-}
 
 .pic{
-	    float: right;
+	float: right;
     display: block;
     position: relative;
     width: 704px;
-    left: 75px;
+    left: -51px;
     height: auto;
     max-height: 450px;
 }
 
 .container{
-	float:left;
-	position:relative;
-	border-color:black;
-	border-width: 3px;
-	background-color:orange;
-	margin-left: 2%;
 
+	width: 100%;
+    background-color: orange;
 }
 
 .details1{
-	margin-left:10%;
+	margin-left: 4%;
 	margin-top:20px;
 	border-width: 2px;
 	width: 100%;
@@ -32,7 +24,7 @@
 }
 
 .details2{
-	margin-left:10%;
+    margin-left: 4%;
 	margin-top:20px;
 	border-width: 2px;
 	width: 100%;
@@ -40,7 +32,7 @@
 }
 
 .details3{
-	margin-left:10%;
+    margin-left: 4%;
 	margin-top:20px;
 	border-width: 2px;
 	width: 100%;
@@ -48,7 +40,7 @@
 }
 
 .details4{
-	margin-left:10%;
+    margin-left: 4%;
 	margin-top:20px;
 	border-width: 2px;
 	width: 100%;
@@ -56,13 +48,52 @@
 }
 
 .details5{
+    margin-left: 4%;
 	margin-top:20px;
-	margin-left:10%;
 	border-width: 2px;
 	width: 100%;
 	display: flow-root;
 }
 
+.details6{
+	margin-left: 4%;
+	margin-top:20px;
+	border-width: 2px;
+	width: 100%;
+	display:flow-root;
+}
+
+.details7{
+	margin-left: 4%;
+	margin-top:20px;
+	border-width: 2px;
+	width: 100%;
+	display:flow-root;
+}
+
+.details8{
+	margin-left: 4%;
+	margin-top:20px;
+	border-width: 2px;
+	width: 100%;
+	display:flow-root;
+}
+
+.details9{
+	margin-left: 4%;
+	margin-top:20px;
+	border-width: 2px;
+	width: 100%;
+	display:flow-root;
+}
+
+.details10{
+	margin-left: 4%;
+	margin-top:20px;
+	border-width: 2px;
+	width: 100%;
+	display:flow-root;
+}
 p{
 	margin-left:5px;
 	font-size:small;
@@ -70,7 +101,7 @@ p{
 }
 
 h2{
-	margin-left: 20%;
+	margin-left: 31%;
     width: 1087px;
     height: 41px;
 
@@ -82,6 +113,7 @@ h5{
     line-height: 110%;
     position: relative;
     display:block;
+    width:400px;
 }
 
 a{

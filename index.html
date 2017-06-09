@@ -48,9 +48,13 @@
 				$(".details3").remove();
 				$(".details4").remove();
 				$(".details5").remove();
+				$(".details6").remove();
+				$(".details7").remove();
+				$(".details8").remove();
+				$(".details9").remove();
+				$(".details10").remove();
 
-				          
-				var queryURL = "https://developers.zomato.com/api/v2.1/search?entity_id=" + cityID + "&entity_type=city&sort=rating&count=5&apikey=68794916a5d408b51d693e400ac0bc7c";
+				var queryURL = "https://developers.zomato.com/api/v2.1/search?entity_id=" + cityID + "&entity_type=city&sort=rating&count=10&apikey=68794916a5d408b51d693e400ac0bc7c";
 
 				$.ajax({
 					url: queryURL,
@@ -58,9 +62,8 @@
 				}).done(function(response){
 					console.log(response);
 
-					
 					//prints 5 restaurants
-					for(var i=0; i<5; i++){
+					for(var i=0; i<10; i++){
 
 						var details = response.restaurants[i].restaurant;
 
@@ -80,14 +83,13 @@
 						var menu = $('<a class="link" href='+details.menu_url+'>Menu</a><br>');
 						var website = $('<a class="link" href='+details.url+'>More info on Zomato!</a>');
 
-
 						photo.addClass("pic");
 
 						var div = $("<div class=details"+x+"></div>");
 
 						$(".container").append(div);
 						$(".details"+x).append(photo).append(name).append(cuisine).append(addr).append(rating).append(menu).append(website);
-						$(".title").html("Top five places to eat in "+ details.location.city);
+						$(".title").html("Top ten places to eat in "+ details.location.city);
 					}
 					
 				});
